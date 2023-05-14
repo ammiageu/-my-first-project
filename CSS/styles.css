@@ -10675,7 +10675,7 @@ body.dark .two-f {
 .date{
     display: flex;
     position: absolute;
-    margin-top: -5%;
+    margin-top: 3%;
     margin-left: 41.5%;
   
   }
@@ -10683,11 +10683,7 @@ body.dark .two-f {
     font-size: 15px;
     font-weight: 500;
   }
-  .footer-icon{
-    margin-left: 49%;
-    margin-top: 1%;
-    
-  }
+ 
 @keyframes floater {
   0% {
     transform: translateY(-10%);
