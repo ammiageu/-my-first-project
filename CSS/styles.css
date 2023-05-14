@@ -10675,7 +10675,7 @@ body.dark .two-f {
 .date{
     display: flex;
     position: absolute;
-    margin-top: 1%;
+    margin-top: -2%;
     margin-left: 41.5%;
   
   }
