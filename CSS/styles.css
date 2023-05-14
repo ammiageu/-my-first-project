@@ -10643,7 +10643,7 @@ body.dark .footer {
 
 .one-f {
   visibility: visible;
-  height: 100px;
+  height: 90px;
   width: auto;
   border-radius: 50%;
   margin-left: -5%;
@@ -10659,7 +10659,7 @@ body.dark .one-f {
 
 .two-f {
   visibility: hidden;
-  height: 100px;
+  height: 90px;
   width: auto;
   border-radius: 50%;
   box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
@@ -10671,7 +10671,22 @@ body.dark .two-f {
   animation: floater 1.5s infinite;
   transition: ease 0.5s;
 }
-
+.date{
+    display: flex;
+    position: absolute;
+    margin-top: 2.7%;
+    margin-left: 41.5%;
+  
+  }
+  .date h2{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .footer-icon{
+    margin-left: 49%;
+    margin-top: 1%;
+    
+  }
 @keyframes floater {
   0% {
     transform: translateY(-10%);
