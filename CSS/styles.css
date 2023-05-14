@@ -10647,7 +10647,7 @@ body.dark .footer {
   width: auto;
   border-radius: 50%;
   margin-left: -5%;
-  margin-top: 5%;
+  margin-top: 2%;
   transform: translateY(-10%);
   animation: floater 1.5s infinite;
   transition: ease 0.5s;
@@ -10661,6 +10661,7 @@ body.dark .one-f {
   visibility: hidden;
   height: 90px;
   width: auto;
+  margin-top: 2%;
   border-radius: 50%;
   box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
   margin-left: -15%;
