@@ -5,6 +5,7 @@
   position: relative;
 }
 
+
 .background {
   overflow: hidden;
   display: block;
@@ -8223,6 +8224,29 @@ body.dark .c-title h2 {
     margin-top: 30%;
   }
 }
+
+.container-portfolio-1 {
+  overflow: hidden;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 0.5%;
+  background: rgba(12, 72, 157, 0.5);
+  height: 730px;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+body.dark .container-portfolio {
+  background: rgba(17, 41, 75, 0.5);
+}
+
+.project-img-1 {
+  display: flex;
+  margin-top: 9%;
+  margin-left: -9%;
+  height: 540px;
+  width: 720px;
+  border-radius: 8%;
+
 .container-portfolio {
   overflow: hidden;
   display: flex;
