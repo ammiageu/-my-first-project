@@ -1,0 +1,388 @@
+//-----------------------------Palette 1-----------------------------//
+$darkgray: #37364A;
+$darkblue1: #11294B;
+$darkblue2: #141336;
+$lightblue: #306480;
+//------------------------------Palette 2----------------------------//
+$darkergray: #16161B;
+$blue: #0C489D;
+$purple: #4F256F;
+$lilac: #993794;
+//------------------------------Pallette 3---------------------------//
+$orange: #FD9413;
+$black: #000;
+$white: #fff;
+$Lighterblue: #C2E1F2;
+//------------------------------Shadow-------------------------------//
+$darkpurpleshadow: 5px 5px 25px  10px rgba(79,37,111, 0.50);
+$lightlilacshadow: 5px 5px 25px 10px rgba(153, 55, 148, 0.50);
+$LightShadow: 5px 5px 25px rgba(19, 31, 54, 0.70);
+$DarkShadow: 5px 5px 25px  rgba(149, 190, 228, 0.25);
+// -------------------------Dynamictitle----------------------------//
+.container-resume{
+  overflow: hidden;
+
+  display: flex;
+  border-radius: 10px;
+  margin-top: 0.5%;
+  background: rgba(12, 72, 157, 0.5);
+  height: 200px;
+  margin-right: 2%;
+  margin-left: 2%;
+body.dark &{
+background: rgba(17,41,75, 0.5);
+}
+
+}
+
+.resume-p{
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 2rem;
+margin-top: 3%;
+margin-left: 70%;
+  font-family: 'Rubik', sans-serif;
+  border-right: 0.15em solid $lilac;
+  animation: typing 4s steps(89) 5s 1 normal both, blink 5s steps(1) infinite;
+  font-weight: 700;
+  color: $darkgray;
+
+animation-iteration-count:infinite;
+
+animation-delay:1s;
+body.dark &{
+  color: $darkergray;
+  border-right: 0.15em solid $purple;
+}
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+.resume-p-1{
+  visibility: hidden;
+}
+
+
+
+
+.download-btn{
+  overflow: hidden;
+display: flex;
+justify-content: center;
+margin-top: 8%;
+margin-left: -60px;
+background: none;
+height: 70px;
+width: 300px;
+background: $blue;
+border-radius:  50px;
+box-shadow: $LightShadow;
+cursor: pointer;
+body.dark &{
+  background: $darkblue1;
+  box-shadow: $DarkShadow;
+}
+
+}
+
+
+.download-btn button{
+border:  none;
+background: none;
+}
+
+.download-btn a{
+  overflow: hidden;
+text-decoration: none;
+color: $Lighterblue;
+height: 100px;
+width: 300px;
+margin-left: -147px;
+border-radius: 50px;
+font-size: 30px;
+font-weight: 500;
+cursor: pointer;
+transition: all 1.2s;
+
+}
+.download-btn:hover{
+  transform: scale(1.2);
+  background: $lilac;
+  body.dark &{
+  background: $purple;
+  }
+}
+
+// ------------------responsive---------
+@media (max-width: 1024px){
+  .container-resume{
+    display: flex;
+    border-radius: 10px;
+    margin-top: 0.5%;
+    height: 200px;
+    margin-right: 2%;
+    margin-left: 2%;
+
+  }
+
+  .resume-p{
+    font-size:30px;
+  margin-top: 6%;
+  margin-left: 40%;}
+
+  .download-btn{
+    overflow: visible;
+  margin-top: 10%;
+  margin-left: -250px;
+  height: 70px;
+  width: 300px;
+  border-radius:  50px;
+}}
+
+@media (max-width: 912px){
+  .container-resume{
+    display: flex;
+    border-radius: 10px;
+    margin-top: 0.5%;
+    height: 200px;
+    margin-right: 2%;
+    margin-left: 2%;
+
+  }
+
+  .resume-p{
+    font-size:30px;
+  margin-top: 6%;
+  margin-left: 30%;}
+
+  .download-btn{
+    overflow: visible;
+  margin-top: 13%;
+  margin-left: -250px;
+  height: 70px;
+  width: 300px;
+  border-radius:  50px;
+}}
+@media (max-width: 820px){
+  .container-resume{
+    display: flex;
+    border-radius: 10px;
+    margin-top: 0.5%;
+    height: 200px;
+    margin-right: 2%;
+    margin-left: 2%;
+
+  }
+
+  .resume-p{
+    font-size: 26.5px;
+  margin-top: 6%;
+  margin-left: 25%;}
+
+  .download-btn{
+    overflow: visible;
+  margin-top: 13%;
+  margin-left: -250px;
+  height: 70px;
+  width: 300px;
+  border-radius:  50px;
+}
+
+}
+@media (max-width: 550px){
+  .container-resume{
+    display: flex;
+    border-radius: 10px;
+    margin-top: 0.5%;
+    height: 200px;
+    margin-right: 2%;
+    margin-left: 2%;
+
+  }
+
+  .resume-p{
+    font-size: 26.5px;
+  margin-top: 6%;
+  margin-left: 1%;}
+
+  .download-btn{
+    overflow: visible;
+  margin-top: 23%;
+  margin-left: -350px;
+  height: 70px;
+  width: 300px;
+  border-radius:  50px;
+}
+
+}
+@media (max-width: 414px){
+  .container-resume{
+    display: flex;
+    border-radius: 10px;
+    margin-top: 0.5%;
+    height: 200px;
+    margin-right: 2%;
+    margin-left: 2%;
+
+  }
+
+  .resume-p{
+    font-size: 20px;
+  margin-top: 10%;
+  margin-left: 1%;}
+
+  .download-btn{
+    overflow: visible;
+  margin-top: 25%;
+  margin-left: -250px;
+  height: 70px;
+  width: 300px;
+  border-radius:  50px;
+}
+
+}
+@media (max-width: 395px){
+  .resume-p{
+    visibility: hidden;
+  }
+  .resume-p-1{
+    visibility: visible;
+    margin-top: 15%;
+    margin-left: -196%;
+    font-size: 23px;
+  }
+}
+@media (max-width: 375px){
+  .container-resume{
+    display: flex;
+    border-radius: 10px;
+    margin-top: 0.5%;
+    height: 200px;
+    margin-right: 2%;
+    margin-left: 2%;
+
+  }
+
+  .resume-p{
+    visibility: hidden;
+  
+  }
+  .resume-p-1{
+    visibility: visible;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1rem;
+  margin-top: 15%;
+  margin-left: -80%;
+    font-family: 'Rubik', sans-serif;
+    border-right: 0.15em solid $lilac;
+    animation: typing 4s steps(89) 5s 1 normal both, blink 5s steps(1) infinite;
+    font-weight: 700;
+    color: $darkgray;
+  
+  animation-iteration-count:infinite;
+  
+  animation-delay:1s;
+  body.dark &{
+    color: $darkergray;
+    border-right: 0.15em solid $purple;
+  }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  .download-btn{
+    overflow: visible;
+  margin-top: 25%;
+  margin-left: -270px;
+  height: 70px;
+  width: 300px;
+  border-radius:  50px;
+}
+
+}
+
+@media (max-width: 280px){
+  .container-resume{
+    display: flex;
+    border-radius: 10px;
+    margin-top: 0.5%;
+    height: 200px;
+    margin-right: 2%;
+    margin-left: 2%;
+
+  }
+
+  .resume-p{
+    visibility: hidden;
+  
+  }
+  .resume-p-1{
+    visibility: visible;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1rem;
+  margin-top: 15%;
+  margin-left: -83%;
+    font-family: 'Rubik', sans-serif;
+    border-right: 0.15em solid $lilac;
+    animation: typing 4s steps(89) 5s 1 normal both, blink 5s steps(1) infinite;
+    font-weight: 700;
+    color: $darkgray;
+  
+  animation-iteration-count:infinite;
+  
+  animation-delay:1s;
+  body.dark &{
+    color: $darkergray;
+    border-right: 0.15em solid $purple;
+  }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  .download-btn{
+    overflow: visible;
+  margin-top: 35%;
+  margin-left: -330px;
+  height: 70px;
+  width: 300px;
+  border-radius:  50px;
+}
+
+}
