@@ -8224,26 +8224,27 @@ body.dark .c-title h2 {
     margin-top: 30%;
   }
 }
-
+/* -------------------------------portfolio----------------------- */
 .container-portfolio-1 {
   overflow: hidden;
   display: flex;
   border-radius: 10px;
   margin-top: 0.5%;
   background: rgba(12, 72, 157, 0.5);
-  height: 730px;
+  height: 600px;
   margin-right: 2%;
   margin-left: 2%;
 }
 body.dark .container-portfolio-1 {
   background: rgba(17, 41, 75, 0.5);
 }
+
 .title-project-1 h3 {
   display: flex;
   border-radius: 8px;
   padding: 5% 10%;
   margin-top: 7%;
-  margin-left: 85%;
+  margin-left: 70%;
   width: 200px;
   height: 50px;
   color: #C2E1F2;
@@ -8259,17 +8260,34 @@ body.dark .title-project-1 h3 {
 
 .project-img-1 {
   display: flex;
-  margin-top: 9%;
+  margin-top: 8%;
   margin-left: -9%;
-  height: 540px;
-  width: 720px;
-  border-radius: 8%;
+  height: 450px;
+  width: 310px;
+  border-radius: 25px;
+  background-color: #37364A;
+  padding-top: 2%;
+  padding-left: 1%;
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+}
+body.dark .project-img-1 {
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+  background-color: #16161B;
+}
+.project-img-1 img{
+  height: 394px;
+  width: 284px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+
 .project-p-1 {
+
   display: flex;
-  margin-top: 4%;
+  margin-top: 10%;
   margin-left: 5%;
   align-content: center;
-  padding: 2.5%;
+  padding: 4%;
   border-radius: 3%;
   background-color: rgba(153, 55, 148, 0.8);
   box-shadow: 5px 5px 25px 10px rgba(79, 37, 111, 0.5);
@@ -8277,18 +8295,22 @@ body.dark .title-project-1 h3 {
   font-size: 30px;
   height: 400px;
   width: 500px;
+ 
 }
 body.dark .project-p-1 {
   box-shadow: 5px 5px 25px 10px rgba(153, 55, 148, 0.5);
   background-color: rgba(79, 37, 111, 0.8);
   color: #C2E1F2;
 }
-
+a {
+  text-decoration: none;
+  list-style: none;
+}
 .btn-p-1-1 button {
   display: flex;
   justify-content: center;
   margin-left: 40%;
-  margin-top: 60%;
+  margin-top: 100%;
   height: 25px;
   width: 170px;
   background: #0C489D;
@@ -8386,7 +8408,8 @@ body.dark .btn-p-3-1 button:hover {
   box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
 }
 
-.container-portfolio {
+/* -------------------------------2------------------------------- */
+.container-portfolio-2 {
   overflow: hidden;
   display: flex;
   border-radius: 10px;
@@ -8396,11 +8419,11 @@ body.dark .btn-p-3-1 button:hover {
   margin-right: 2%;
   margin-left: 2%;
 }
-body.dark .container-portfolio {
+body.dark .container-portfolio-2 {
   background: rgba(17, 41, 75, 0.5);
 }
 
-.title-project h3 {
+.title-project-2 h3 {
   display: flex;
   border-radius: 8px;
   padding: 5% 10%;
@@ -8414,12 +8437,12 @@ body.dark .container-portfolio {
   background-color: #37364A;
   box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
 }
-body.dark .title-project h3 {
+body.dark .title-project-2 h3 {
   background-color: #16161B;
   box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
 }
 
-.project-img {
+.project-img-2 {
   display: flex;
   margin-top: 9%;
   margin-left: -9%;
@@ -8430,15 +8453,22 @@ body.dark .title-project h3 {
   padding: 6px;
   box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
 }
-body.dark .project-img {
+body.dark .project-img-2 {
   box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
   background-color: #16161B;
 }
-.project-img img{
-  height: 300px;
-  width: 350px;}
+.project-img-2 img{
+  border-radius: 8px;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+margin-top: 2.5%;
+margin-left: 1.5%;
+  height: 270px;
+  width: 330px;
+  
+  
+}
 
-.project-p {
+.project-p-2 {
   display: flex;
   margin-top: 4%;
   margin-left: 5%;
@@ -8452,13 +8482,13 @@ body.dark .project-img {
   height: 400px;
   width: 500px;
 }
-body.dark .project-p {
+body.dark .project-p-2 {
   box-shadow: 5px 5px 25px 10px rgba(153, 55, 148, 0.5);
   background-color: rgba(79, 37, 111, 0.8);
   color: #C2E1F2;
 }
 
-.btn-p-1 button {
+.btn-p-1-2 button {
   display: flex;
   justify-content: center;
   margin-left: 40%;
@@ -8474,17 +8504,17 @@ body.dark .project-p {
   border-radius: 10px;
   padding: 25px 9px 35px 9px;
 }
-body.dark .btn-p-1 button {
+body.dark .btn-p-1-2 button {
   background: #11294B;
   color: #C2E1F2;
   box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
 }
-body.dark .btn-p-1 button:hover {
+body.dark .btn-p-1-2 button:hover {
   background: rgba(79, 37, 111, 0.8);
   color: lightblue;
 }
 
-.btn-p-1 button:hover {
+.btn-p-1-2 button:hover {
   transform: scale(1.2);
   box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
   font-weight: 700;
@@ -8492,7 +8522,7 @@ body.dark .btn-p-1 button:hover {
   background: #993794;
 }
 
-.btn-p-2 button {
+.btn-p-2-2 button {
   display: flex;
   justify-content: center;
   margin-left: 40%;
@@ -8508,17 +8538,17 @@ body.dark .btn-p-1 button:hover {
   border-radius: 10px;
   padding: 25px 9px 35px 9px;
 }
-body.dark .btn-p-2 button {
+body.dark .btn-p-2-2 button {
   background: rgba(153, 55, 148, 0.8);
   background: #11294B;
   box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
 }
-body.dark .btn-p-2 button:hover {
+body.dark .btn-p-2-2 button:hover {
   background: rgba(79, 37, 111, 0.8);
   color: lightblue;
 }
 
-.btn-p-2 button:hover {
+.btn-p-2-2 button:hover {
   transform: scale(1.2);
   box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
   font-weight: 700;
@@ -8526,7 +8556,7 @@ body.dark .btn-p-2 button:hover {
   background: #993794;
 }
 
-.btn-p-3 button {
+.btn-p-3-2 button {
   display: flex;
   justify-content: center;
   margin-left: 40%;
@@ -8542,111 +8572,1259 @@ body.dark .btn-p-2 button:hover {
   border-radius: 10px;
   padding: 25px 9px 35px 9px;
 }
-body.dark .btn-p-3 button {
+body.dark .btn-p-3-2 button {
   background: #11294B;
   color: #C2E1F2;
   box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
 }
-body.dark .btn-p-3 button:hover {
+body.dark .btn-p-3-2 button:hover {
   background: rgba(79, 37, 111, 0.8);
   color: lightblue;
 }
 
-.btn-p-3 button:hover {
+.btn-p-3-2 button:hover {
   font-weight: 700;
   color: white;
   background: #993794;
   transform: scale(1.2);
   box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
 }
+/* ----------------------------3------------------------------- */
+.container-portfolio-3 {
+  overflow: hidden;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 0.5%;
+  background: rgba(12, 72, 157, 0.5);
+  height: 500px;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+body.dark .container-portfolio-3 {
+  background: rgba(17, 41, 75, 0.5);
+}
 
+.title-project-3 h3 {
+  display: flex;
+  border-radius: 8px;
+  padding: 5% 10%;
+  margin-top: 7%;
+  margin-left: 85%;
+  width: 200px;
+  height: 50px;
+  color: #C2E1F2;
+  font-size: 25px;
+  font-family: 400;
+  background-color: #37364A;
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+}
+body.dark .title-project-3 h3 {
+  background-color: #16161B;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+
+.project-img-3 {
+  display: flex;
+  margin-top: 9%;
+  margin-left: -9%;
+  height: 300px;
+  width: 350px;
+  border-radius: 8%;
+  background-color: #37364A;
+  padding: 6px;
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+}
+body.dark .project-img-3 {
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+  background-color: #16161B;
+}
+.project-img-3 img{
+  height: 200px;
+  width: 250px;}
+
+.project-p-3 {
+  display: flex;
+  margin-top: 4%;
+  margin-left: 5%;
+  align-content: center;
+  padding: 2.5%;
+  border-radius: 3%;
+  background-color: rgba(153, 55, 148, 0.8);
+  box-shadow: 5px 5px 25px 10px rgba(79, 37, 111, 0.5);
+  color: #16161B;
+  font-size: 30px;
+  height: 400px;
+  width: 500px;
+}
+body.dark .project-p-3 {
+  box-shadow: 5px 5px 25px 10px rgba(153, 55, 148, 0.5);
+  background-color: rgba(79, 37, 111, 0.8);
+  color: #C2E1F2;
+}
+
+.btn-p-1-3 button {
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 60%;
+  height: 25px;
+  width: 170px;
+  background: #0C489D;
+  color: #C2E1F2;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+body.dark .btn-p-1-3 button {
+  background: #11294B;
+  color: #C2E1F2;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+body.dark .btn-p-1-3 button:hover {
+  background: rgba(79, 37, 111, 0.8);
+  color: lightblue;
+}
+
+.btn-p-1-3 button:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+  font-weight: 700;
+  color: white;
+  background: #993794;
+}
+
+.btn-p-2-3 button {
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 40%;
+  height: 25px;
+  width: 170px;
+  background: #0C489D;
+  color: #C2E1F2;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+body.dark .btn-p-2-3 button {
+  background: rgba(153, 55, 148, 0.8);
+  background: #11294B;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+body.dark .btn-p-2-3 button:hover {
+  background: rgba(79, 37, 111, 0.8);
+  color: lightblue;
+}
+
+.btn-p-2-3 button:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+  font-weight: 700;
+  color: white;
+  background: #993794;
+}
+
+.btn-p-3-3 button {
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 40%;
+  height: 25px;
+  width: 170px;
+  background: #0C489D;
+  color: #C2E1F2;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+body.dark .btn-p-3-3 button {
+  background: #11294B;
+  color: #C2E1F2;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+body.dark .btn-p-3-3 button:hover {
+  background: rgba(79, 37, 111, 0.8);
+  color: lightblue;
+}
+
+.btn-p-3-3 button:hover {
+  font-weight: 700;
+  color: white;
+  background: #993794;
+  transform: scale(1.2);
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+}
+/* ----------------------------4-------------------------- */
+.container-portfolio-4 {
+  overflow: hidden;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 0.5%;
+  background: rgba(12, 72, 157, 0.5);
+  height: 500px;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+body.dark .container-portfolio-4 {
+  background: rgba(17, 41, 75, 0.5);
+}
+
+.title-project-4 h3 {
+  display: flex;
+  border-radius: 8px;
+  padding: 5% 10%;
+  margin-top: 7%;
+  margin-left: 85%;
+  width: 200px;
+  height: 50px;
+  color: #C2E1F2;
+  font-size: 25px;
+  font-family: 400;
+  background-color: #37364A;
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+}
+body.dark .title-project-4 h3 {
+  background-color: #16161B;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+
+.project-img-4 {
+  display: flex;
+  margin-top: 9%;
+  margin-left: -9%;
+  height: 300px;
+  width: 350px;
+  border-radius: 8%;
+  background-color: #37364A;
+  padding: 6px;
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+}
+body.dark .project-img-4 {
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+  background-color: #16161B;
+}
+.project-img-4 img{
+  height: 200px;
+  width: 250px;}
+
+.project-p-4 {
+  display: flex;
+  margin-top: 4%;
+  margin-left: 5%;
+  align-content: center;
+  padding: 2.5%;
+  border-radius: 3%;
+  background-color: rgba(153, 55, 148, 0.8);
+  box-shadow: 5px 5px 25px 10px rgba(79, 37, 111, 0.5);
+  color: #16161B;
+  font-size: 30px;
+  height: 400px;
+  width: 500px;
+}
+body.dark .project-p-4 {
+  box-shadow: 5px 5px 25px 10px rgba(153, 55, 148, 0.5);
+  background-color: rgba(79, 37, 111, 0.8);
+  color: #C2E1F2;
+}
+
+.btn-p-1-4 button {
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 60%;
+  height: 25px;
+  width: 170px;
+  background: #0C489D;
+  color: #C2E1F2;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+body.dark .btn-p-1-4 button {
+  background: #11294B;
+  color: #C2E1F2;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+body.dark .btn-p-1-4 button:hover {
+  background: rgba(79, 37, 111, 0.8);
+  color: lightblue;
+}
+
+.btn-p-1-4 button:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+  font-weight: 700;
+  color: white;
+  background: #993794;
+}
+
+.btn-p-2-4 button {
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 40%;
+  height: 25px;
+  width: 170px;
+  background: #0C489D;
+  color: #C2E1F2;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+body.dark .btn-p-2-4 button {
+  background: rgba(153, 55, 148, 0.8);
+  background: #11294B;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+body.dark .btn-p-2-4 button:hover {
+  background: rgba(79, 37, 111, 0.8);
+  color: lightblue;
+}
+
+.btn-p-2-4 button:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+  font-weight: 700;
+  color: white;
+  background: #993794;
+}
+
+.btn-p-3-4 button {
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 40%;
+  height: 25px;
+  width: 170px;
+  background: #0C489D;
+  color: #C2E1F2;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+body.dark .btn-p-3-4 button {
+  background: #11294B;
+  color: #C2E1F2;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+body.dark .btn-p-3-4 button:hover {
+  background: rgba(79, 37, 111, 0.8);
+  color: lightblue;
+}
+
+.btn-p-3-4 button:hover {
+  font-weight: 700;
+  color: white;
+  background: #993794;
+  transform: scale(1.2);
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+}
+/* --------------------------------5-------------------------- */
+.container-portfolio-5 {
+  overflow: hidden;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 0.5%;
+  background: rgba(12, 72, 157, 0.5);
+  height: 500px;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+body.dark .container-portfolio-5 {
+  background: rgba(17, 41, 75, 0.5);
+}
+
+.title-project-5 h3 {
+  display: flex;
+  border-radius: 8px;
+  padding: 5% 10%;
+  margin-top: 7%;
+  margin-left: 85%;
+  width: 200px;
+  height: 50px;
+  color: #C2E1F2;
+  font-size: 25px;
+  font-family: 400;
+  background-color: #37364A;
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+}
+body.dark .title-project-5 h3 {
+  background-color: #16161B;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+
+.project-img-5 {
+  display: flex;
+  margin-top: 9%;
+  margin-left: -9%;
+  height: 300px;
+  width: 350px;
+  border-radius: 8%;
+  background-color: #37364A;
+  padding: 6px;
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+}
+body.dark .project-img-5 {
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+  background-color: #16161B;
+}
+.project-img-5 img{
+  height: 200px;
+  width: 250px;}
+
+.project-p-5 {
+  display: flex;
+  margin-top: 4%;
+  margin-left: 5%;
+  align-content: center;
+  padding: 2.5%;
+  border-radius: 3%;
+  background-color: rgba(153, 55, 148, 0.8);
+  box-shadow: 5px 5px 25px 10px rgba(79, 37, 111, 0.5);
+  color: #16161B;
+  font-size: 30px;
+  height: 400px;
+  width: 500px;
+}
+body.dark .project-p-5 {
+  box-shadow: 5px 5px 25px 10px rgba(153, 55, 148, 0.5);
+  background-color: rgba(79, 37, 111, 0.8);
+  color: #C2E1F2;
+}
+
+.btn-p-1-5 button {
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 60%;
+  height: 25px;
+  width: 170px;
+  background: #0C489D;
+  color: #C2E1F2;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+body.dark .btn-p-1-5 button {
+  background: #11294B;
+  color: #C2E1F2;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+body.dark .btn-p-1-5 button:hover {
+  background: rgba(79, 37, 111, 0.8);
+  color: lightblue;
+}
+
+.btn-p-1-5 button:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+  font-weight: 700;
+  color: white;
+  background: #993794;
+}
+
+.btn-p-2-5 button {
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 40%;
+  height: 25px;
+  width: 170px;
+  background: #0C489D;
+  color: #C2E1F2;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+body.dark .btn-p-2-5 button {
+  background: rgba(153, 55, 148, 0.8);
+  background: #11294B;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+body.dark .btn-p-2-5 button:hover {
+  background: rgba(79, 37, 111, 0.8);
+  color: lightblue;
+}
+
+.btn-p-2-5 button:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+  font-weight: 700;
+  color: white;
+  background: #993794;
+}
+
+.btn-p-3-5 button {
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 40%;
+  height: 25px;
+  width: 170px;
+  background: #0C489D;
+  color: #C2E1F2;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+body.dark .btn-p-3-5 button {
+  background: #11294B;
+  color: #C2E1F2;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+body.dark .btn-p-3-5 button:hover {
+  background: rgba(79, 37, 111, 0.8);
+  color: lightblue;
+}
+
+.btn-p-3-5 button:hover {
+  font-weight: 700;
+  color: white;
+  background: #993794;
+  transform: scale(1.2);
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+}
+/* -------------------6----------------------------- */
+
+.container-portfolio-6 {
+  overflow: hidden;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 0.5%;
+  background: rgba(12, 72, 157, 0.5);
+  height: 500px;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+body.dark .container-portfolio-6 {
+  background: rgba(17, 41, 75, 0.5);
+}
+
+.title-project-6 h3 {
+  display: flex;
+  border-radius: 8px;
+  padding: 5% 10%;
+  margin-top: 7%;
+  margin-left: 85%;
+  width: 200px;
+  height: 50px;
+  color: #C2E1F2;
+  font-size: 25px;
+  font-family: 400;
+  background-color: #37364A;
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+}
+body.dark .title-project-6 h3 {
+  background-color: #16161B;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+
+.project-img-6 {
+  display: flex;
+  margin-top: 9%;
+  margin-left: -9%;
+  height: 300px;
+  width: 350px;
+  border-radius: 8%;
+  background-color: #37364A;
+  padding: 6px;
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+}
+body.dark .project-img-6 {
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+  background-color: #16161B;
+}
+.project-img-6 img{
+  height: 200px;
+  width: 250px;}
+
+.project-p-6 {
+  display: flex;
+  margin-top: 4%;
+  margin-left: 5%;
+  align-content: center;
+  padding: 2.5%;
+  border-radius: 3%;
+  background-color: rgba(153, 55, 148, 0.8);
+  box-shadow: 5px 5px 25px 10px rgba(79, 37, 111, 0.5);
+  color: #16161B;
+  font-size: 30px;
+  height: 400px;
+  width: 500px;
+}
+body.dark .project-p-6 {
+  box-shadow: 5px 5px 25px 10px rgba(153, 55, 148, 0.5);
+  background-color: rgba(79, 37, 111, 0.8);
+  color: #C2E1F2;
+}
+
+.btn-p-1-6 button {
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 60%;
+  height: 25px;
+  width: 170px;
+  background: #0C489D;
+  color: #C2E1F2;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+body.dark .btn-p-1-6 button {
+  background: #11294B;
+  color: #C2E1F2;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+body.dark .btn-p-1-6 button:hover {
+  background: rgba(79, 37, 111, 0.8);
+  color: lightblue;
+}
+
+.btn-p-1-6 button:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+  font-weight: 700;
+  color: white;
+  background: #993794;
+}
+
+.btn-p-2-6 button {
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 40%;
+  height: 25px;
+  width: 170px;
+  background: #0C489D;
+  color: #C2E1F2;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+body.dark .btn-p-2-6 button {
+  background: rgba(153, 55, 148, 0.8);
+  background: #11294B;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+body.dark .btn-p-2-6 button:hover {
+  background: rgba(79, 37, 111, 0.8);
+  color: lightblue;
+}
+
+.btn-p-2-6 button:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+  font-weight: 700;
+  color: white;
+  background: #993794;
+}
+
+.btn-p-3-6 button {
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 40%;
+  height: 25px;
+  width: 170px;
+  background: #0C489D;
+  color: #C2E1F2;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+body.dark .btn-p-3-6 button {
+  background: #11294B;
+  color: #C2E1F2;
+  box-shadow: 5px 5px 25px rgba(149, 190, 228, 0.25);
+}
+body.dark .btn-p-3-6 button:hover {
+  background: rgba(79, 37, 111, 0.8);
+  color: lightblue;
+}
+
+.btn-p-3-6 button:hover {
+  font-weight: 700;
+  color: white;
+  background: #993794;
+  transform: scale(1.2);
+  box-shadow: 5px 5px 25px rgba(19, 31, 54, 0.7);
+}
+/* ------------------------end------------------------------------- */
 @media (max-width: 1280px) {
-  .btn-p-1 button {
+  .btn-p-1-1 button {
     margin-left: 20%;
     margin-top: 100%;
     height: 25px;
     width: 120px;
   }
-  .btn-p-2 button {
+  .btn-p-2-1 button {
     margin-left: 20%;
     margin-top: 40%;
     height: 25px;
     width: 120px;
   }
-  .btn-p-3 button {
+  .btn-p-3-1 button {
     margin-left: 20%;
     margin-top: 40%;
     height: 25px;
     width: 120px;
   }
+  /* ----2---- */
+  .btn-p-1-2 button {
+    margin-left: 20%;
+    margin-top: 100%;
+    height: 25px;
+    width: 120px;
+  }
+  .btn-p-2-2 button {
+    margin-left: 20%;
+    margin-top: 40%;
+    height: 25px;
+    width: 120px;
+  }
+  .btn-p-3-2 button {
+    margin-left: 20%;
+    margin-top: 40%;
+    height: 25px;
+    width: 120px;
+  }
+/* -----3----- */
+.btn-p-1-3 button {
+  margin-left: 20%;
+  margin-top: 100%;
+  height: 25px;
+  width: 120px;
+}
+.btn-p-2-3 button {
+  margin-left: 20%;
+  margin-top: 40%;
+  height: 25px;
+  width: 120px;
+}
+.btn-p-3-3 button {
+  margin-left: 20%;
+  margin-top: 40%;
+  height: 25px;
+  width: 120px;
+}
+/* -------4------ */
+.btn-p-1-4 button {
+  margin-left: 20%;
+  margin-top: 100%;
+  height: 25px;
+  width: 120px;
+}
+.btn-p-2-4 button {
+  margin-left: 20%;
+  margin-top: 40%;
+  height: 25px;
+  width: 120px;
+}
+.btn-p-3-4 button {
+  margin-left: 20%;
+  margin-top: 40%;
+  height: 25px;
+  width: 120px;
+}
+/* ----5---- */
+.btn-p-1-5 button {
+  margin-left: 20%;
+  margin-top: 100%;
+  height: 25px;
+  width: 120px;
+}
+.btn-p-2-5 button {
+  margin-left: 20%;
+  margin-top: 40%;
+  height: 25px;
+  width: 120px;
+}
+.btn-p-3-5 button {
+  margin-left: 20%;
+  margin-top: 40%;
+  height: 25px;
+  width: 120px;
+}
+/* ----6---- */
+.btn-p-1-6 button {
+  margin-left: 20%;
+  margin-top: 100%;
+  height: 25px;
+  width: 120px;
+}
+.btn-p-2-6 button {
+  margin-left: 20%;
+  margin-top: 40%;
+  height: 25px;
+  width: 120px;
+}
+.btn-p-3-6 button {
+  margin-left: 20%;
+  margin-top: 40%;
+  height: 25px;
+  width: 120px;
+}
 }
 @media (max-width: 1024px) {
-  .title-project h3 {
+  .title-project-1 h3 {
     margin-top: 30%;
     margin-left: 50%;
     width: 200px;
     height: 50px;
   }
-  .project-img {
+  .project-img-1 {
     margin-top: 15%;
     margin-left: -18%;
     height: 300px;
     width: 350px;
   }
-  .project-p {
+  .project-p-1 {
     margin-top: 2.5%;
     margin-left: 2.5%;
     height: 450px;
     width: 418px;
   }
-  .btn-p-1 button {
+  .btn-p-1-1 button {
     margin-left: 12%;
     margin-top: 120%;
     height: 25px;
     width: 100px;
   }
-  .btn-p-2 button {
+  .btn-p-2-1 button {
     margin-left: 12%;
     margin-top: 40%;
     height: 25px;
     width: 100px;
   }
-  .btn-p-3 button {
+  .btn-p-3-1 button {
+    margin-left: 12%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  /* ---2--- */
+  .title-project-2 h3 {
+    margin-top: 30%;
+    margin-left: 50%;
+    width: 200px;
+    height: 50px;
+  }
+  .project-img-2 {
+    margin-top: 15%;
+    margin-left: -18%;
+    height: 300px;
+    width: 350px;
+  }
+  .project-p-2 {
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    height: 450px;
+    width: 418px;
+  }
+  .btn-p-1-2 button {
+    margin-left: 12%;
+    margin-top: 120%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-2-2 button {
+    margin-left: 12%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-3-2 button {
+    margin-left: 12%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  /* ---3--- */
+  .title-project-3 h3 {
+    margin-top: 30%;
+    margin-left: 50%;
+    width: 200px;
+    height: 50px;
+  }
+  .project-img-3 {
+    margin-top: 15%;
+    margin-left: -18%;
+    height: 300px;
+    width: 350px;
+  }
+  .project-p-3 {
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    height: 450px;
+    width: 418px;
+  }
+  .btn-p-1-3 button {
+    margin-left: 12%;
+    margin-top: 120%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-2-3 button {
+    margin-left: 12%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-3-3 button {
+    margin-left: 12%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  /* ---4--- */
+  .title-project-4 h3 {
+    margin-top: 30%;
+    margin-left: 50%;
+    width: 200px;
+    height: 50px;
+  }
+  .project-img-4 {
+    margin-top: 15%;
+    margin-left: -18%;
+    height: 300px;
+    width: 350px;
+  }
+  .project-p-4 {
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    height: 450px;
+    width: 418px;
+  }
+  .btn-p-1-4 button {
+    margin-left: 12%;
+    margin-top: 120%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-2-4 button {
+    margin-left: 12%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-3-4 button {
+    margin-left: 12%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  /* ---5--- */
+  .title-project-5 h3 {
+    margin-top: 30%;
+    margin-left: 50%;
+    width: 200px;
+    height: 50px;
+  }
+  .project-img-5 {
+    margin-top: 15%;
+    margin-left: -18%;
+    height: 300px;
+    width: 350px;
+  }
+  .project-p-5 {
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    height: 450px;
+    width: 418px;
+  }
+  .btn-p-1-5 button {
+    margin-left: 12%;
+    margin-top: 120%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-2-5 button {
+    margin-left: 12%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-3-5 button {
+    margin-left: 12%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  /* ---6--- */
+  .title-project-6 h3 {
+    margin-top: 30%;
+    margin-left: 50%;
+    width: 200px;
+    height: 50px;
+  }
+  .project-img-6 {
+    margin-top: 15%;
+    margin-left: -18%;
+    height: 300px;
+    width: 350px;
+  }
+  .project-p-6 {
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    height: 450px;
+    width: 418px;
+  }
+  .btn-p-1-6 button {
+    margin-left: 12%;
+    margin-top: 120%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-2-6 button {
+    margin-left: 12%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-3-6 button {
     margin-left: 12%;
     margin-top: 40%;
     height: 25px;
     width: 100px;
   }
 }
+
 @media (max-width: 912px) {
-  .title-project h3 {
+  .title-project-1 h3 {
     margin-left: 35%;
   }
-  .project-img {
+  .project-img-1 {
     margin-left: -20%;
     height: 300px;
     width: 300px;
   }
-  .project-p {
+  .project-p-1 {
     margin-top: 2.5%;
     margin-left: 3%;
     overflow: auto;
     width: 350px;
     height: 450px;
   }
-  .btn-p-1 button {
+  .btn-p-1-1 button {
     margin-left: 13%;
     margin-top: 100%;
     height: 25px;
     width: 100px;
   }
-  .btn-p-2 button {
+  .btn-p-2-1 button {
     margin-left: 13%;
     margin-top: 40%;
     height: 25px;
     width: 100px;
   }
-  .btn-p-3 button {
+  .btn-p-3-1 button {
+    margin-left: 13%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  /* ---2--- */
+  .title-project-2 h3 {
+    margin-left: 35%;
+  }
+  .project-img-2 {
+    margin-left: -20%;
+    height: 300px;
+    width: 300px;
+  }
+  .project-p-2 {
+    margin-top: 2.5%;
+    margin-left: 3%;
+    overflow: auto;
+    width: 350px;
+    height: 450px;
+  }
+  .btn-p-1-2 button {
+    margin-left: 13%;
+    margin-top: 100%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-2-2 button {
+    margin-left: 13%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-3-2 button {
+    margin-left: 13%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  /* ---3--- */
+  .title-project-3 h3 {
+    margin-left: 35%;
+  }
+  .project-img-3 {
+    margin-left: -20%;
+    height: 300px;
+    width: 300px;
+  }
+  .project-p-3 {
+    margin-top: 2.5%;
+    margin-left: 3%;
+    overflow: auto;
+    width: 350px;
+    height: 450px;
+  }
+  .btn-p-1-3 button {
+    margin-left: 13%;
+    margin-top: 100%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-2-3 button {
+    margin-left: 13%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-3-3 button {
+    margin-left: 13%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  /* ---4--- */
+  .title-project-4 h3 {
+    margin-left: 35%;
+  }
+  .project-img-4 {
+    margin-left: -20%;
+    height: 300px;
+    width: 300px;
+  }
+  .project-p-4 {
+    margin-top: 2.5%;
+    margin-left: 3%;
+    overflow: auto;
+    width: 350px;
+    height: 450px;
+  }
+  .btn-p-1-4 button {
+    margin-left: 13%;
+    margin-top: 100%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-2-4 button {
+    margin-left: 13%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-3-4 button {
+    margin-left: 13%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  /* ---5--- */
+  .title-project-5 h3 {
+    margin-left: 35%;
+  }
+  .project-img-5 {
+    margin-left: -20%;
+    height: 300px;
+    width: 300px;
+  }
+  .project-p-5 {
+    margin-top: 2.5%;
+    margin-left: 3%;
+    overflow: auto;
+    width: 350px;
+    height: 450px;
+  }
+  .btn-p-1-5 button {
+    margin-left: 13%;
+    margin-top: 100%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-2-5 button {
+    margin-left: 13%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-3-5 button {
+    margin-left: 13%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  /* ---6--- */
+  .title-project-6 h3 {
+    margin-left: 35%;
+  }
+  .project-img-6 {
+    margin-left: -20%;
+    height: 300px;
+    width: 300px;
+  }
+  .project-p-6 {
+    margin-top: 2.5%;
+    margin-left: 3%;
+    overflow: auto;
+    width: 350px;
+    height: 450px;
+  }
+  .btn-p-1-6 button {
+    margin-left: 13%;
+    margin-top: 100%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-2-6 button {
+    margin-left: 13%;
+    margin-top: 40%;
+    height: 25px;
+    width: 100px;
+  }
+  .btn-p-3-6 button {
     margin-left: 13%;
     margin-top: 40%;
     height: 25px;
@@ -8654,21 +9832,21 @@ body.dark .btn-p-3 button:hover {
   }
 }
 @media (max-width: 820px) {
-  .container-portfolio {
+  .container-portfolio-1 {
     margin-top: 0.5%;
     height: 730px;
     margin-right: 2%;
     margin-left: 2%;
     position: relative;
   }
-  .title-project h3 {
+  .title-project-1 h3 {
     border-radius: 8px;
     margin-top: 7%;
     margin-left: 100%;
     width: 200px;
     height: 50px;
   }
-  .project-img {
+  .project-img-1 {
     margin-top: 10%;
     margin-left: -10%;
     height: 300px;
@@ -8676,7 +9854,7 @@ body.dark .btn-p-3 button:hover {
     border-radius: 8%;
     padding: 6px;
   }
-  .project-p {
+  .project-p-1 {
     position: absolute;
     display: flex;
     margin-top: 55%;
@@ -8685,27 +9863,328 @@ body.dark .btn-p-3 button:hover {
     height: 270px;
     width: 680px;
   }
-  .btn-p-1 button {
+  .btn-p-1-1 button {
     margin-left: 40%;
     margin-top: 43%;
     height: 25px;
     width: 170px;
   }
-  .btn-p-2 button {
+  .btn-p-2-1 button {
     margin-left: 40%;
     margin-top: 40%;
     height: 25px;
     width: 170px;
   }
-  .btn-p-3 button {
+  .btn-p-3-1 button {
     margin-left: 40%;
     margin-top: 40%;
     height: 25px;
     width: 170px;
   }
+
+/*---2--- */
+  .container-portfolio-2 {
+    margin-top: 0.5%;
+    height: 730px;
+    margin-right: 2%;
+    margin-left: 2%;
+    position: relative;
+  }
+  .title-project-2 h3 {
+    border-radius: 8px;
+    margin-top: 7%;
+    margin-left: 100%;
+    width: 200px;
+    height: 50px;
+  }
+  .project-img-2 {
+    margin-top: 10%;
+    margin-left: -10%;
+    height: 300px;
+    width: 350px;
+    border-radius: 8%;
+    padding: 6px;
+  }
+  .project-p-2 {
+    position: absolute;
+    display: flex;
+    margin-top: 55%;
+    margin-left: 5%;
+    border-radius: 3%;
+    height: 270px;
+    width: 680px;
+  }
+  .btn-p-1-2 button {
+    margin-left: 40%;
+    margin-top: 43%;
+    height: 25px;
+    width: 170px;
+  }
+  .btn-p-2-2 button {
+    margin-left: 40%;
+    margin-top: 40%;
+    height: 25px;
+    width: 170px;
+  }
+  .btn-p-3-2 button {
+    margin-left: 40%;
+    margin-top: 40%;
+    height: 25px;
+    width: 170px;
+  }
+  /* ---3--- */
+  .container-portfolio-3 {
+    margin-top: 0.5%;
+    height: 730px;
+    margin-right: 2%;
+    margin-left: 2%;
+    position: relative;
+  }
+  .title-project-3 h3 {
+    border-radius: 8px;
+    margin-top: 7%;
+    margin-left: 100%;
+    width: 200px;
+    height: 50px;
+  }
+  .project-img-3 {
+    margin-top: 10%;
+    margin-left: -10%;
+    height: 300px;
+    width: 350px;
+    border-radius: 8%;
+    padding: 6px;
+  }
+  .project-p-3 {
+    position: absolute;
+    display: flex;
+    margin-top: 55%;
+    margin-left: 5%;
+    border-radius: 3%;
+    height: 270px;
+    width: 680px;
+  }
+  .btn-p-1-3 button {
+    margin-left: 40%;
+    margin-top: 43%;
+    height: 25px;
+    width: 170px;
+  }
+  .btn-p-2-3 button {
+    margin-left: 40%;
+    margin-top: 40%;
+    height: 25px;
+    width: 170px;
+  }
+  .btn-p-3-3 button {
+    margin-left: 40%;
+    margin-top: 40%;
+    height: 25px;
+    width: 170px;
+  }
+/* ---4--- */
+.container-portfolio-4 {
+  margin-top: 0.5%;
+  height: 730px;
+  margin-right: 2%;
+  margin-left: 2%;
+  position: relative;
+}
+.title-project-4 h3 {
+  border-radius: 8px;
+  margin-top: 7%;
+  margin-left: 100%;
+  width: 200px;
+  height: 50px;
+}
+.project-img-4 {
+  margin-top: 10%;
+  margin-left: -10%;
+  height: 300px;
+  width: 350px;
+  border-radius: 8%;
+  padding: 6px;
+}
+.project-p-4 {
+  position: absolute;
+  display: flex;
+  margin-top: 55%;
+  margin-left: 5%;
+  border-radius: 3%;
+  height: 270px;
+  width: 680px;
+}
+.btn-p-1-4 button {
+  margin-left: 40%;
+  margin-top: 43%;
+  height: 25px;
+  width: 170px;
+}
+.btn-p-2-4 button {
+  margin-left: 40%;
+  margin-top: 40%;
+  height: 25px;
+  width: 170px;
+}
+.btn-p-3-4 button {
+  margin-left: 40%;
+  margin-top: 40%;
+  height: 25px;
+  width: 170px;
+}
+/* ---5--- */
+.container-portfolio-5 {
+  margin-top: 0.5%;
+  height: 730px;
+  margin-right: 2%;
+  margin-left: 2%;
+  position: relative;
+}
+.title-project-5 h3 {
+  border-radius: 8px;
+  margin-top: 7%;
+  margin-left: 100%;
+  width: 200px;
+  height: 50px;
+}
+.project-img-5 {
+  margin-top: 10%;
+  margin-left: -10%;
+  height: 300px;
+  width: 350px;
+  border-radius: 8%;
+  padding: 6px;
+}
+.project-p-5 {
+  position: absolute;
+  display: flex;
+  margin-top: 55%;
+  margin-left: 5%;
+  border-radius: 3%;
+  height: 270px;
+  width: 680px;
+}
+.btn-p-1-5 button {
+  margin-left: 40%;
+  margin-top: 43%;
+  height: 25px;
+  width: 170px;
+}
+.btn-p-2-5 button {
+  margin-left: 40%;
+  margin-top: 40%;
+  height: 25px;
+  width: 170px;
+}
+.btn-p-3-5 button {
+  margin-left: 40%;
+  margin-top: 40%;
+  height: 25px;
+  width: 170px;
+}
+/* ---6--- */
+.container-portfolio-6 {
+  margin-top: 0.5%;
+  height: 730px;
+  margin-right: 2%;
+  margin-left: 2%;
+  position: relative;
+}
+.title-project-6 h3 {
+  border-radius: 8px;
+  margin-top: 7%;
+  margin-left: 100%;
+  width: 200px;
+  height: 50px;
+}
+.project-img-6 {
+  margin-top: 10%;
+  margin-left: -10%;
+  height: 300px;
+  width: 350px;
+  border-radius: 8%;
+  padding: 6px;
+}
+.project-p-6 {
+  position: absolute;
+  display: flex;
+  margin-top: 55%;
+  margin-left: 5%;
+  border-radius: 3%;
+  height: 270px;
+  width: 680px;
+}
+.btn-p-1-6 button {
+  margin-left: 40%;
+  margin-top: 43%;
+  height: 25px;
+  width: 170px;
+}
+.btn-p-2-6 button {
+  margin-left: 40%;
+  margin-top: 40%;
+  height: 25px;
+  width: 170px;
+}
+.btn-p-3-6 button {
+  margin-left: 40%;
+  margin-top: 40%;
+  height: 25px;
+  width: 170px;
+}
 }
 @media (max-width: 768px) {
-  .project-p {
+  .project-p-1 {
+    position: absolute;
+    display: flex;
+    margin-top: 60%;
+    margin-left: 5%;
+    border-radius: 3%;
+    height: 270px;
+    width: 660px;
+  }
+  /* --2-- */
+  .project-p-2 {
+    position: absolute;
+    display: flex;
+    margin-top: 60%;
+    margin-left: 5%;
+    border-radius: 3%;
+    height: 270px;
+    width: 660px;
+  }
+  /* --3-- */
+  .project-p-3 {
+    position: absolute;
+    display: flex;
+    margin-top: 60%;
+    margin-left: 5%;
+    border-radius: 3%;
+    height: 270px;
+    width: 660px;
+  }
+  /* --4-- */
+  .project-p-4 {
+    position: absolute;
+    display: flex;
+    margin-top: 60%;
+    margin-left: 5%;
+    border-radius: 3%;
+    height: 270px;
+    width: 660px;
+  }
+  /* --5-- */
+  .project-p-5 {
+    position: absolute;
+    display: flex;
+    margin-top: 60%;
+    margin-left: 5%;
+    border-radius: 3%;
+    height: 270px;
+    width: 660px;
+  }
+  /* --6-- */
+  .project-p-6 {
     position: absolute;
     display: flex;
     margin-top: 60%;
@@ -8716,21 +10195,21 @@ body.dark .btn-p-3 button:hover {
   }
 }
 @media (max-width: 550px) {
-  .container-portfolio {
+  .container-portfolio-1 {
     margin-top: 0.5%;
     height: 1100px;
     margin-right: 2%;
     margin-left: 2%;
     position: relative;
   }
-  .title-project h3 {
+  .title-project-1 h3 {
     border-radius: 8px;
     margin-top: 7%;
     margin-left: 65%;
     width: 230px;
     height: 50px;
   }
-  .project-img {
+  .project-img-1 {
     margin-top: 20%;
     margin-left: -35%;
     height: 400px;
@@ -8738,7 +10217,7 @@ body.dark .btn-p-3 button:hover {
     border-radius: 8%;
     padding: 6px;
   }
-  .project-p {
+  .project-p-1 {
     font-size: 50px;
     position: absolute;
     display: flex;
@@ -8748,7 +10227,7 @@ body.dark .btn-p-3 button:hover {
     height: 450px;
     width: 450px;
   }
-  .btn-p-1 button {
+  .btn-p-1-1 button {
     margin-left: -400%;
     margin-top: 1010px;
     height: 20px;
@@ -8756,7 +10235,7 @@ body.dark .btn-p-3 button:hover {
     border-radius: 10px;
     padding: 25px 9px 35px 9px;
   }
-  .btn-p-2 button {
+  .btn-p-2-1 button {
     margin-left: -110%;
     margin-top: -60px;
     height: 20px;
@@ -8764,7 +10243,7 @@ body.dark .btn-p-3 button:hover {
     border-radius: 10px;
     padding: 25px 9px 35px 9px;
   }
-  .btn-p-3 button {
+  .btn-p-3-1 button {
     margin-left: -250%;
     margin-top: -60px;
     height: 20px;
@@ -8772,23 +10251,368 @@ body.dark .btn-p-3 button:hover {
     border-radius: 10px;
     padding: 25px 9px 35px 9px;
   }
+/* ---2--- */
+.container-portfolio-2 {
+  margin-top: 0.5%;
+  height: 1100px;
+  margin-right: 2%;
+  margin-left: 2%;
+  position: relative;
+}
+.title-project-2 h3 {
+  border-radius: 8px;
+  margin-top: 7%;
+  margin-left: 65%;
+  width: 230px;
+  height: 50px;
+}
+.project-img-2 {
+  margin-top: 20%;
+  margin-left: -35%;
+  height: 400px;
+  width: 550px;
+  border-radius: 8%;
+  padding: 6px;
+}
+.project-p-2 {
+  font-size: 50px;
+  position: absolute;
+  display: flex;
+  margin-top: 102.5%;
+  margin-left: 4%;
+  border-radius: 3%;
+  height: 450px;
+  width: 450px;
+}
+.btn-p-1-2 button {
+  margin-left: -400%;
+  margin-top: 1010px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-2-2 button {
+  margin-left: -110%;
+  margin-top: -60px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-3-2 button {
+  margin-left: -250%;
+  margin-top: -60px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+/* ---3--- */
+.container-portfolio-3 {
+  margin-top: 0.5%;
+  height: 1100px;
+  margin-right: 2%;
+  margin-left: 2%;
+  position: relative;
+}
+.title-project-3 h3 {
+  border-radius: 8px;
+  margin-top: 7%;
+  margin-left: 65%;
+  width: 230px;
+  height: 50px;
+}
+.project-img-3 {
+  margin-top: 20%;
+  margin-left: -35%;
+  height: 400px;
+  width: 550px;
+  border-radius: 8%;
+  padding: 6px;
+}
+.project-p-3 {
+  font-size: 50px;
+  position: absolute;
+  display: flex;
+  margin-top: 102.5%;
+  margin-left: 4%;
+  border-radius: 3%;
+  height: 450px;
+  width: 450px;
+}
+.btn-p-1-3 button {
+  margin-left: -400%;
+  margin-top: 1010px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-2-3 button {
+  margin-left: -110%;
+  margin-top: -60px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-3-3 button {
+  margin-left: -250%;
+  margin-top: -60px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+/* ---4--- */
+.container-portfolio-4 {
+  margin-top: 0.5%;
+  height: 1100px;
+  margin-right: 2%;
+  margin-left: 2%;
+  position: relative;
+}
+.title-project-4 h3 {
+  border-radius: 8px;
+  margin-top: 7%;
+  margin-left: 65%;
+  width: 230px;
+  height: 50px;
+}
+.project-img-4 {
+  margin-top: 20%;
+  margin-left: -35%;
+  height: 400px;
+  width: 550px;
+  border-radius: 8%;
+  padding: 6px;
+}
+.project-p-4 {
+  font-size: 50px;
+  position: absolute;
+  display: flex;
+  margin-top: 102.5%;
+  margin-left: 4%;
+  border-radius: 3%;
+  height: 450px;
+  width: 450px;
+}
+.btn-p-1-4 button {
+  margin-left: -400%;
+  margin-top: 1010px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-2-4 button {
+  margin-left: -110%;
+  margin-top: -60px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-3-4 button {
+  margin-left: -250%;
+  margin-top: -60px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+/* ---5--- */
+.container-portfolio-5 {
+  margin-top: 0.5%;
+  height: 1100px;
+  margin-right: 2%;
+  margin-left: 2%;
+  position: relative;
+}
+.title-project-5 h3 {
+  border-radius: 8px;
+  margin-top: 7%;
+  margin-left: 65%;
+  width: 230px;
+  height: 50px;
+}
+.project-img-5 {
+  margin-top: 20%;
+  margin-left: -35%;
+  height: 400px;
+  width: 550px;
+  border-radius: 8%;
+  padding: 6px;
+}
+.project-p-5 {
+  font-size: 50px;
+  position: absolute;
+  display: flex;
+  margin-top: 102.5%;
+  margin-left: 4%;
+  border-radius: 3%;
+  height: 450px;
+  width: 450px;
+}
+.btn-p-1-5 button {
+  margin-left: -400%;
+  margin-top: 1010px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-2-5 button {
+  margin-left: -110%;
+  margin-top: -60px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-3-5 button {
+  margin-left: -250%;
+  margin-top: -60px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+/* ---6--- */
+.container-portfolio-6 {
+  margin-top: 0.5%;
+  height: 1100px;
+  margin-right: 2%;
+  margin-left: 2%;
+  position: relative;
+}
+.title-project-6 h3 {
+  border-radius: 8px;
+  margin-top: 7%;
+  margin-left: 65%;
+  width: 230px;
+  height: 50px;
+}
+.project-img-6 {
+  margin-top: 20%;
+  margin-left: -35%;
+  height: 400px;
+  width: 550px;
+  border-radius: 8%;
+  padding: 6px;
+}
+.project-p-6 {
+  font-size: 50px;
+  position: absolute;
+  display: flex;
+  margin-top: 102.5%;
+  margin-left: 4%;
+  border-radius: 3%;
+  height: 450px;
+  width: 450px;
+}
+.btn-p-1-6 button {
+  margin-left: -400%;
+  margin-top: 1010px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-2-6 button {
+  margin-left: -110%;
+  margin-top: -60px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-3-6 button {
+  margin-left: -250%;
+  margin-top: -60px;
+  height: 20px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
 }
 @media (max-width: 414px) {
-  .container-portfolio {
+  .container-portfolio-1 {
     margin-top: 0.5%;
-    height: 900px;
+    height: 1000px;
     margin-right: 2%;
     margin-left: 2%;
     position: relative;
   }
-  .title-project h3 {
+  .title-project-1 h3 {
     border-radius: 8px;
     margin-top: 7%;
     margin-left: 45%;
     width: 200px;
     height: 50px;
   }
-  .project-img {
+  .project-img-1 {
+    margin-top: 20%;
+    margin-left: -40%;
+    height: 410px;
+    width: 330px;
+    border-radius: 8%;
+    padding: 6px;
+  }
+  .project-img-1 img{
+    border-radius: 25px;
+  }
+  .project-p-1 {
+    overflow: auto;
+    position: absolute;
+    display: flex;
+    margin-top: 130%;
+    margin-left: 4%;
+    border-radius: 3%;
+    height: 400px;
+    width: 335px;
+  }
+  .btn-p-1-1 button {
+    margin-left: -360%;
+    margin-top: 920px;
+    height: 10px;
+    width: 80px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .btn-p-2-1 button {
+    margin-left: -110%;
+    margin-top: -60px;
+    height: 10px;
+    width: 80px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .btn-p-3-1 button {
+    margin-left: -230%;
+    margin-top: -60px;
+    height: 10px;
+    width: 80px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  /* ---2--- */
+  .container-portfolio-2 {
+    margin-top: 0.5%;
+    height: 900px;
+    margin-right: 2%;
+    margin-left: 2%;
+    position: relative;
+  }
+  .title-project-2 h3 {
+    border-radius: 8px;
+    margin-top: 7%;
+    margin-left: 45%;
+    width: 200px;
+    height: 50px;
+  }
+  .project-img-2 {
     margin-top: 20%;
     margin-left: -40%;
     height: 270px;
@@ -8796,7 +10620,7 @@ body.dark .btn-p-3 button:hover {
     border-radius: 8%;
     padding: 6px;
   }
-  .project-p {
+  .project-p-2 {
     overflow: auto;
     position: absolute;
     display: flex;
@@ -8806,7 +10630,7 @@ body.dark .btn-p-3 button:hover {
     height: 400px;
     width: 335px;
   }
-  .btn-p-1 button {
+  .btn-p-1-2 button {
     margin-left: -350%;
     margin-top: 810px;
     height: 10px;
@@ -8814,7 +10638,7 @@ body.dark .btn-p-3 button:hover {
     border-radius: 10px;
     padding: 25px 9px 35px 9px;
   }
-  .btn-p-2 button {
+  .btn-p-2-2 button {
     margin-left: -110%;
     margin-top: -60px;
     height: 10px;
@@ -8822,7 +10646,7 @@ body.dark .btn-p-3 button:hover {
     border-radius: 10px;
     padding: 25px 9px 35px 9px;
   }
-  .btn-p-3 button {
+  .btn-p-3-2 button {
     margin-left: -230%;
     margin-top: -60px;
     height: 10px;
@@ -8830,16 +10654,300 @@ body.dark .btn-p-3 button:hover {
     border-radius: 10px;
     padding: 25px 9px 35px 9px;
   }
+  /* ---3--- */
+  .container-portfolio-3 {
+    margin-top: 0.5%;
+    height: 900px;
+    margin-right: 2%;
+    margin-left: 2%;
+    position: relative;
+  }
+  .title-project-3 h3 {
+    border-radius: 8px;
+    margin-top: 7%;
+    margin-left: 45%;
+    width: 200px;
+    height: 50px;
+  }
+  .project-img-3 {
+    margin-top: 20%;
+    margin-left: -40%;
+    height: 270px;
+    width: 330px;
+    border-radius: 8%;
+    padding: 6px;
+  }
+  .project-p-3 {
+    overflow: auto;
+    position: absolute;
+    display: flex;
+    margin-top: 102.5%;
+    margin-left: 4%;
+    border-radius: 3%;
+    height: 400px;
+    width: 335px;
+  }
+  .btn-p-1-3 button {
+    margin-left: -350%;
+    margin-top: 810px;
+    height: 10px;
+    width: 80px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .btn-p-2-3 button {
+    margin-left: -110%;
+    margin-top: -60px;
+    height: 10px;
+    width: 80px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .btn-p-3-3 button {
+    margin-left: -230%;
+    margin-top: -60px;
+    height: 10px;
+    width: 80px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+
+/* ---4--- */
+.container-portfolio-4 {
+  margin-top: 0.5%;
+  height: 900px;
+  margin-right: 2%;
+  margin-left: 2%;
+  position: relative;
 }
-@media (max-width: 375px) {
-  .title-project h3 {
+.title-project-4 h3 {
+  border-radius: 8px;
+  margin-top: 7%;
+  margin-left: 45%;
+  width: 200px;
+  height: 50px;
+}
+.project-img-4 {
+  margin-top: 20%;
+  margin-left: -40%;
+  height: 270px;
+  width: 330px;
+  border-radius: 8%;
+  padding: 6px;
+}
+.project-p-4 {
+  overflow: auto;
+  position: absolute;
+  display: flex;
+  margin-top: 102.5%;
+  margin-left: 4%;
+  border-radius: 3%;
+  height: 400px;
+  width: 335px;
+}
+.btn-p-1-4 button {
+  margin-left: -350%;
+  margin-top: 810px;
+  height: 10px;
+  width: 80px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-2-4 button {
+  margin-left: -110%;
+  margin-top: -60px;
+  height: 10px;
+  width: 80px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-3-4 button {
+  margin-left: -230%;
+  margin-top: -60px;
+  height: 10px;
+  width: 80px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+/* ---5--- */
+.container-portfolio-5 {
+  margin-top: 0.5%;
+  height: 900px;
+  margin-right: 2%;
+  margin-left: 2%;
+  position: relative;
+}
+.title-project-5 h3 {
+  border-radius: 8px;
+  margin-top: 7%;
+  margin-left: 45%;
+  width: 200px;
+  height: 50px;
+}
+.project-img-5 {
+  margin-top: 20%;
+  margin-left: -40%;
+  height: 270px;
+  width: 330px;
+  border-radius: 8%;
+  padding: 6px;
+}
+.project-p-5 {
+  overflow: auto;
+  position: absolute;
+  display: flex;
+  margin-top: 102.5%;
+  margin-left: 4%;
+  border-radius: 3%;
+  height: 400px;
+  width: 335px;
+}
+.btn-p-1-5 button {
+  margin-left: -350%;
+  margin-top: 810px;
+  height: 10px;
+  width: 80px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-2-5 button {
+  margin-left: -110%;
+  margin-top: -60px;
+  height: 10px;
+  width: 80px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-3-5 button {
+  margin-left: -230%;
+  margin-top: -60px;
+  height: 10px;
+  width: 80px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+/* ---6--- */
+.container-portfolio-6 {
+  margin-top: 0.5%;
+  height: 900px;
+  margin-right: 2%;
+  margin-left: 2%;
+  position: relative;
+}
+.title-project-6 h3 {
+  border-radius: 8px;
+  margin-top: 7%;
+  margin-left: 45%;
+  width: 200px;
+  height: 50px;
+}
+.project-img-6 {
+  margin-top: 20%;
+  margin-left: -40%;
+  height: 270px;
+  width: 330px;
+  border-radius: 8%;
+  padding: 6px;
+}
+.project-p-6 {
+  overflow: auto;
+  position: absolute;
+  display: flex;
+  margin-top: 102.5%;
+  margin-left: 4%;
+  border-radius: 3%;
+  height: 400px;
+  width: 335px;
+}
+.btn-p-1-6 button {
+  margin-left: -350%;
+  margin-top: 810px;
+  height: 10px;
+  width: 80px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-2-6 button {
+  margin-left: -110%;
+  margin-top: -60px;
+  height: 10px;
+  width: 80px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+.btn-p-3-6 button {
+  margin-left: -230%;
+  margin-top: -60px;
+  height: 10px;
+  width: 80px;
+  border-radius: 10px;
+  padding: 25px 9px 35px 9px;
+}
+}
+
+
+@media (max-width: 393px) {
+  .container-portfolio-1{
+    height: 1050px;
+  }
+  .title-project-1 h3 {
     border-radius: 8px;
     margin-top: 7%;
     margin-left: 35%;
     width: 200px;
     height: 50px;
   }
-  .project-img {
+  .project-img-1 {
+    margin-top: 20%;
+    margin-left: -50%;
+    height: 410px;
+    width: 330px;
+    border-radius: 8%;
+    padding: 6px;
+  }
+  .project-p-1 {
+    overflow: auto;
+    position: absolute;
+    display: flex;
+    margin-top: 145%;
+    margin-left: 4%;
+    border-radius: 3%;
+    height: 450px;
+    width: 310px;
+  }
+  .btn-p-1-1 button {
+    margin-left: -390%;
+    margin-top: 980px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .btn-p-2-1 button {
+    margin-left: -110%;
+    margin-top: -60px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .btn-p-3-1 button {
+    margin-left: -240%;
+    margin-top: -60px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  /* ---2--- */
+  .title-project-2 h3 {
+    border-radius: 8px;
+    margin-top: 7%;
+    margin-left: 35%;
+    width: 200px;
+    height: 50px;
+  }
+  .project-img-2 {
     margin-top: 20%;
     margin-left: -50%;
     height: 270px;
@@ -8847,7 +10955,7 @@ body.dark .btn-p-3 button:hover {
     border-radius: 8%;
     padding: 6px;
   }
-  .project-p {
+  .project-p-2 {
     overflow: auto;
     position: absolute;
     display: flex;
@@ -8857,7 +10965,7 @@ body.dark .btn-p-3 button:hover {
     height: 450px;
     width: 310px;
   }
-  .btn-p-1 button {
+  .btn-p-1-2 button {
     margin-left: -370%;
     margin-top: 825px;
     height: 10px;
@@ -8865,7 +10973,7 @@ body.dark .btn-p-3 button:hover {
     border-radius: 10px;
     padding: 25px 9px 35px 9px;
   }
-  .btn-p-2 button {
+  .btn-p-2-2 button {
     margin-left: -110%;
     margin-top: -60px;
     height: 10px;
@@ -8873,7 +10981,207 @@ body.dark .btn-p-3 button:hover {
     border-radius: 10px;
     padding: 25px 9px 35px 9px;
   }
-  .btn-p-3 button {
+  .btn-p-3-2 button {
+    margin-left: -240%;
+    margin-top: -60px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  /* ---3--- */
+  .title-project-3 h3 {
+    border-radius: 8px;
+    margin-top: 7%;
+    margin-left: 35%;
+    width: 200px;
+    height: 50px;
+  }
+  .project-img-3 {
+    margin-top: 20%;
+    margin-left: -50%;
+    height: 270px;
+    width: 330px;
+    border-radius: 8%;
+    padding: 6px;
+  }
+  .project-p-3 {
+    overflow: auto;
+    position: absolute;
+    display: flex;
+    margin-top: 102.5%;
+    margin-left: 4%;
+    border-radius: 3%;
+    height: 450px;
+    width: 310px;
+  }
+  .btn-p-1-3 button {
+    margin-left: -370%;
+    margin-top: 825px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .btn-p-2-3 button {
+    margin-left: -110%;
+    margin-top: -60px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .btn-p-3-3 button {
+    margin-left: -240%;
+    margin-top: -60px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  /* ---4--- */
+  .title-project-4 h3 {
+    border-radius: 8px;
+    margin-top: 7%;
+    margin-left: 35%;
+    width: 200px;
+    height: 50px;
+  }
+  .project-img-4 {
+    margin-top: 20%;
+    margin-left: -50%;
+    height: 270px;
+    width: 330px;
+    border-radius: 8%;
+    padding: 6px;
+  }
+  .project-p-4 {
+    overflow: auto;
+    position: absolute;
+    display: flex;
+    margin-top: 102.5%;
+    margin-left: 4%;
+    border-radius: 3%;
+    height: 450px;
+    width: 310px;
+  }
+  .btn-p-1-4 button {
+    margin-left: -370%;
+    margin-top: 825px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .btn-p-2-4 button {
+    margin-left: -110%;
+    margin-top: -60px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .btn-p-3-4 button {
+    margin-left: -240%;
+    margin-top: -60px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  /* ---5--- */
+  .title-project-5 h3 {
+    border-radius: 8px;
+    margin-top: 7%;
+    margin-left: 35%;
+    width: 200px;
+    height: 50px;
+  }
+  .project-img-5 {
+    margin-top: 20%;
+    margin-left: -50%;
+    height: 270px;
+    width: 330px;
+    border-radius: 8%;
+    padding: 6px;
+  }
+  .project-p-5 {
+    overflow: auto;
+    position: absolute;
+    display: flex;
+    margin-top: 102.5%;
+    margin-left: 4%;
+    border-radius: 3%;
+    height: 450px;
+    width: 310px;
+  }
+  .btn-p-1-5 button {
+    margin-left: -370%;
+    margin-top: 825px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .btn-p-2-5 button {
+    margin-left: -110%;
+    margin-top: -60px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .btn-p-3-5 button {
+    margin-left: -240%;
+    margin-top: -60px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  /* ---6--- */
+  .title-project-6 h3 {
+    border-radius: 8px;
+    margin-top: 7%;
+    margin-left: 35%;
+    width: 200px;
+    height: 50px;
+  }
+  .project-img-6 {
+    margin-top: 20%;
+    margin-left: -50%;
+    height: 270px;
+    width: 330px;
+    border-radius: 8%;
+    padding: 6px;
+  }
+  .project-p-6 {
+    overflow: auto;
+    position: absolute;
+    display: flex;
+    margin-top: 102.5%;
+    margin-left: 4%;
+    border-radius: 3%;
+    height: 450px;
+    width: 310px;
+  }
+  .btn-p-1-6 button {
+    margin-left: -370%;
+    margin-top: 825px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .btn-p-2-6 button {
+    margin-left: -110%;
+    margin-top: -60px;
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .btn-p-3-6 button {
     margin-left: -240%;
     margin-top: -60px;
     height: 10px;
@@ -8883,14 +11191,14 @@ body.dark .btn-p-3 button:hover {
   }
 }
 @media (max-width: 280px) {
-  .container-portfolio {
+  .container-portfolio-1 {
     margin-top: 0.5%;
     height: 900px;
     margin-right: 2%;
     margin-left: 2%;
     position: relative;
   }
-  .container-portfolio .title-project h3 {
+  .container-portfolio-1 .title-project-1 h3 {
     font-size: 20px;
     border-radius: 8px;
     margin-top: 7%;
@@ -8898,7 +11206,7 @@ body.dark .btn-p-3 button:hover {
     width: 170px;
     height: 50px;
   }
-  .container-portfolio .project-img {
+  .container-portfolio-1 .project-img-1 {
     margin-top: 30%;
     margin-left: -65%;
     height: 270px;
@@ -8906,11 +11214,11 @@ body.dark .btn-p-3 button:hover {
     border-radius: 8%;
     padding: 6px;
   }
-  .container-portfolio .project-img img {
+  .container-portfolio-1 .project-img-1 img {
     height: 250px;
     width: 200px;
   }
-  .container-portfolio .project-p {
+  .container-portfolio-1 .project-p-1 {
     overflow: auto;
     position: absolute;
     display: flex;
@@ -8920,7 +11228,7 @@ body.dark .btn-p-3 button:hover {
     height: 450px;
     width: 230px;
   }
-  .container-portfolio .btn-p-1 button {
+  .container-portfolio-1 .btn-p-1-1 button {
     margin-left: -320%;
     margin-top: 810px;
     height: 10px;
@@ -8928,7 +11236,7 @@ body.dark .btn-p-3 button:hover {
     border-radius: 10px;
     padding: 25px 9px 35px 9px;
   }
-  .container-portfolio .btn-p-2 button {
+  .container-portfolio-1 .btn-p-2-1 button {
     margin-left: -100%;
     margin-top: -60px;
     height: 10px;
@@ -8936,7 +11244,317 @@ body.dark .btn-p-3 button:hover {
     border-radius: 10px;
     padding: 25px 9px 35px 9px;
   }
-  .container-portfolio .btn-p-3 button {
+  .container-portfolio-1 .btn-p-3-1 button {
+    margin-left: -210%;
+    margin-top: -60px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  /* ---2--- */
+  .container-portfolio-2 {
+    margin-top: 0.5%;
+    height: 900px;
+    margin-right: 2%;
+    margin-left: 2%;
+    position: relative;
+  }
+  .container-portfolio-2 .title-project-2 h3 {
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 7%;
+    margin-left: 13%;
+    width: 170px;
+    height: 50px;
+  }
+  .container-portfolio-2 .project-img-2 {
+    margin-top: 30%;
+    margin-left: -65%;
+    height: 270px;
+    width: 210px;
+    border-radius: 8%;
+    padding: 6px;
+  }
+  .container-portfolio-2 .project-img-2 img {
+    height: 250px;
+    width: 200px;
+  }
+  .container-portfolio-2 .project-p-2 {
+    overflow: auto;
+    position: absolute;
+    display: flex;
+    margin-top: 140%;
+    margin-left: 4%;
+    border-radius: 3%;
+    height: 450px;
+    width: 230px;
+  }
+  .container-portfolio-2 .btn-p-1-2 button {
+    margin-left: -320%;
+    margin-top: 810px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .container-portfolio-2 .btn-p-2-2 button {
+    margin-left: -100%;
+    margin-top: -60px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .container-portfolio-2 .btn-p-2 button {
+    margin-left: -210%;
+    margin-top: -60px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  /* ---3--- */
+  .container-portfolio-3 {
+    margin-top: 0.5%;
+    height: 900px;
+    margin-right: 2%;
+    margin-left: 2%;
+    position: relative;
+  }
+  .container-portfolio-3 .title-project-3 h3 {
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 7%;
+    margin-left: 13%;
+    width: 170px;
+    height: 50px;
+  }
+  .container-portfolio-3 .project-img-3 {
+    margin-top: 30%;
+    margin-left: -65%;
+    height: 270px;
+    width: 210px;
+    border-radius: 8%;
+    padding: 6px;
+  }
+  .container-portfolio-3 .project-img-3 img {
+    height: 250px;
+    width: 200px;
+  }
+  .container-portfolio-3 .project-p-3 {
+    overflow: auto;
+    position: absolute;
+    display: flex;
+    margin-top: 140%;
+    margin-left: 4%;
+    border-radius: 3%;
+    height: 450px;
+    width: 230px;
+  }
+  .container-portfolio-3 .btn-p-1-3 button {
+    margin-left: -320%;
+    margin-top: 810px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .container-portfolio-3 .btn-p-2-3 button {
+    margin-left: -100%;
+    margin-top: -60px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .container-portfolio-3 .btn-p-3-3 button {
+    margin-left: -210%;
+    margin-top: -60px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  /* ---4--- */
+  .container-portfolio-4 {
+    margin-top: 0.5%;
+    height: 900px;
+    margin-right: 2%;
+    margin-left: 2%;
+    position: relative;
+  }
+  .container-portfolio-4 .title-project-4 h3 {
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 7%;
+    margin-left: 13%;
+    width: 170px;
+    height: 50px;
+  }
+  .container-portfolio-4 .project-img-4 {
+    margin-top: 30%;
+    margin-left: -65%;
+    height: 270px;
+    width: 210px;
+    border-radius: 8%;
+    padding: 6px;
+  }
+  .container-portfolio-4 .project-img-4 img {
+    height: 250px;
+    width: 200px;
+  }
+  .container-portfolio-4 .project-p-4 {
+    overflow: auto;
+    position: absolute;
+    display: flex;
+    margin-top: 140%;
+    margin-left: 4%;
+    border-radius: 3%;
+    height: 450px;
+    width: 230px;
+  }
+  .container-portfolio-4 .btn-p-1-4 button {
+    margin-left: -320%;
+    margin-top: 810px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .container-portfolio-4 .btn-p-2-4 button {
+    margin-left: -100%;
+    margin-top: -60px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .container-portfolio-4 .btn-p-3-4 button {
+    margin-left: -210%;
+    margin-top: -60px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  /* ---5--- */
+  .container-portfolio-5 {
+    margin-top: 0.5%;
+    height: 900px;
+    margin-right: 2%;
+    margin-left: 2%;
+    position: relative;
+  }
+  .container-portfolio-5 .title-project-5 h3 {
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 7%;
+    margin-left: 13%;
+    width: 170px;
+    height: 50px;
+  }
+  .container-portfolio-5 .project-img-5 {
+    margin-top: 30%;
+    margin-left: -65%;
+    height: 270px;
+    width: 210px;
+    border-radius: 8%;
+    padding: 6px;
+  }
+  .container-portfolio-5 .project-img-5 img {
+    height: 250px;
+    width: 200px;
+  }
+  .container-portfolio-5 .project-p-5 {
+    overflow: auto;
+    position: absolute;
+    display: flex;
+    margin-top: 140%;
+    margin-left: 4%;
+    border-radius: 3%;
+    height: 450px;
+    width: 230px;
+  }
+  .container-portfolio-5 .btn-p-1-5 button {
+    margin-left: -320%;
+    margin-top: 810px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .container-portfolio-5 .btn-p-2-5 button {
+    margin-left: -100%;
+    margin-top: -60px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .container-portfolio-5 .btn-p-3-5 button {
+    margin-left: -210%;
+    margin-top: -60px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  /* ---6--- */
+  .container-portfolio-6 {
+    margin-top: 0.5%;
+    height: 900px;
+    margin-right: 2%;
+    margin-left: 2%;
+    position: relative;
+  }
+  .container-portfolio-6 .title-project-6 h3 {
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 7%;
+    margin-left: 13%;
+    width: 170px;
+    height: 50px;
+  }
+  .container-portfolio-6 .project-img-6 {
+    margin-top: 30%;
+    margin-left: -65%;
+    height: 270px;
+    width: 210px;
+    border-radius: 8%;
+    padding: 6px;
+  }
+  .container-portfolio-6 .project-img-6 img {
+    height: 250px;
+    width: 200px;
+  }
+  .container-portfolio-6 .project-p-6 {
+    overflow: auto;
+    position: absolute;
+    display: flex;
+    margin-top: 140%;
+    margin-left: 4%;
+    border-radius: 3%;
+    height: 450px;
+    width: 230px;
+  }
+  .container-portfolio-6 .btn-p-1-6 button {
+    margin-left: -320%;
+    margin-top: 810px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .container-portfolio-6 .btn-p-2-6 button {
+    margin-left: -100%;
+    margin-top: -60px;
+    height: 10px;
+    width: 60px;
+    border-radius: 10px;
+    padding: 25px 9px 35px 9px;
+  }
+  .container-portfolio-6 .btn-p-3-6 button {
     margin-left: -210%;
     margin-top: -60px;
     height: 10px;
@@ -8945,6 +11563,7 @@ body.dark .btn-p-3 button:hover {
     padding: 25px 9px 35px 9px;
   }
 }
+/* ---skills--- */
 .skills-container {
   display: flex;
   border-radius: 10px;
@@ -10845,10 +13464,24 @@ body.dark .two-f {
 margin-left: 40%;
   }
   .date h2{
+    color: #fff;
     font-size: 15px;
     font-weight: 500;
   }
- 
+  
+ @media (max-width: 414px){
+
+  .date{
+
+    margin-top: -7%;
+margin-left: 10%;
+  }
+  .date h2{
+    font-size: 15px;
+    font-weight: 500;
+  } 
+
+ }
 @keyframes floater {
   0% {
     transform: translateY(-10%);
