@@ -1,9 +1,11 @@
 <p align="center">
   <a href="https://ammiageu.github.io">
-   Hello &#127758;! I'm Amy </a>
+   <img src=https://i.postimg.cc/6phhJR7g/title.jpg/> </a>
 </p>
-
+<p align="center">
+<img scr=https://i.postimg.cc/j53371yz/5445.jpg/>
+  </p>
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src= https://drive.google.com/file/d/1Jkj0IGbD63GObbR9irq-ysr6ui8Mrj7b/view?usp=drive_link />
+    <img src= https://i.postimg.cc/bv712Z8T/result-2.gif/>
 </p>
