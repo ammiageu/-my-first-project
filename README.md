@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://ammiageu.github.io">
+  <a href="https://ammiageu.github.io"> https://myfirstprojectportfolio.blogspot.com/
    <img src=https://i.postimg.cc/6phhJR7g/title.jpg/> </a>
 </p>
 <p align="center">
