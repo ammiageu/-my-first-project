@@ -5,8 +5,9 @@
 <p align="center">
 <img scr=https://i.postimg.cc/j53371yz/5445.jpg/>
   </p>
-   https://myfirstprojectportfolio.blogspot.com/
+
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
     <img src= https://i.postimg.cc/bv712Z8T/result-2.gif/>
 </p>
+ https://myfirstprojectportfolio.blogspot.com/
