@@ -10,4 +10,4 @@
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
     <img src= https://i.postimg.cc/bv712Z8T/result-2.gif/>
 </p>
-<A HREF="Este es un linkl"> Link </A>https://myfirstprojectportfolio.blogspot.com/
+<A HREF="https://myfirstprojectportfolio.blogspot.com/"> Link </A>
