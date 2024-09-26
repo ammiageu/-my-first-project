@@ -26,7 +26,7 @@
               <a href="https://myfirstprojectportfolio.blogspot.com/">
         My Portfolio
     </a>
-    <image src="https://ammiageu.github.io/ammi.ageu/IMG/photo.jpg" alt="Portfolio Photo">
+    <image src="https://ammiageu.github.io/ammi.ageu/IMG/photo.PNG" alt="Portfolio Photo">
         A screenshot of my portfolio.
     </image>
         </goals>
