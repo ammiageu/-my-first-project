@@ -23,6 +23,12 @@
         </features>
         <goals>
             <p>El objetivo de este proyecto era crear una página web funcional que muestre mis habilidades iniciales en desarrollo frontend y mi experiencia en el uso de tecnologías web básicas.</p>
+              <link href="https://myfirstprojectportfolio.blogspot.com/">
+        My Portfolio
+    </link>
+    <image src="https://ammiageu.github.io/ammi.ageu/images/photo.jpg" alt="Portfolio Photo">
+        A screenshot of my portfolio.
+    </image>
         </goals>
     </section>
     <section>
