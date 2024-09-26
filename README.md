@@ -10,4 +10,4 @@
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
     <img src= https://i.postimg.cc/bv712Z8T/result-2.gif/>
 </p>
-<A HREF="https://myfirstprojectportfolio.blogspot.com/" target="_blank"> Link </A>
+<A HREF="https://ammiageu.github.io/ammi.ageu/" target="_blank"> Link </A>
