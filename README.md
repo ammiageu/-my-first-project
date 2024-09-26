@@ -25,7 +25,6 @@
             <p>El objetivo de este proyecto era crear una página web funcional que muestre mis habilidades iniciales en desarrollo frontend y mi experiencia en el uso de tecnologías web básicas.</p>
         </goals>
     </section>
-
     <section>
         <header>
             <h1>🌟 Nuevo Portafolio - Inspirado en un Mundo de Fantasía</h1>
@@ -56,7 +55,6 @@
             <p>Este nuevo portafolio está diseñado para mostrar mis habilidades avanzadas en frontend, especialmente en el uso de Flexbox, SASS y la implementación de características interactivas como el modo oscuro y un carrusel de imágenes.</p>
         </goals>
     </section>
-
     <section>
         <header>
             <h1>📸 Antes y Después</h1>
