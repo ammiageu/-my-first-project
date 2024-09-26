@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <portfolio>
-    <title>Ammi Ageu - Portfolio</title>
+    <title> Ammi Ageu - Portfolio </title>
      <section>
         <header>
             <h1>📜 Portafolio Anterior</h1>
